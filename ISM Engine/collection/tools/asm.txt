@@ -1,0 +1,357 @@
+; ISM 脚本反汇编
+; 引擎：ISM Script VM（ism.dll）
+.encoding cp932
+
+; ===================== 头部 =====================
+.header
+    .file_size 1300
+    .code_base 314
+    .count_a 1
+    .unk_18 1
+    .num_entries 1
+    .count_1 0
+    .count_2 0
+    .unk_y0 12
+    .count_e 12
+    .count_f 0
+
+; ===================== 入口表 =====================
+.entries
+    .entry loc_0000013A, 0x00000002, 0x00000000
+
+; ===================== 函数表 =====================
+.functions
+
+; ===================== 字符串表 e（外部函数名） =====================
+.strings_e
+    .string "SysFlag_Initialize%0"
+    .string "SysLib_Initialize%0"
+    .string "SysMenu_Initialize%0"
+    .string "SysHist_Initialize%0"
+    .string "SysFlag_SetSystemFlag%2"
+    .string "SysFlag_InitializeFlag%0"
+    .string "SysFlag_RefFlag%1"
+    .string "SysFlag_SetInGameState%1"
+    .string "GameMain%1"
+    .string "SysFlag_RefSystemFlag%1"
+    .string "GameTitle%0"
+    .string "OmakeMode%0"
+
+; ===================== 字符串表 f =====================
+.strings_f
+
+; ===================== 代码段 =====================
+.code
+
+
+loc_0000013A:
+    JMP_24 loc_00000507
+    PUSHI_30 0x00000000
+    SEP_05
+    PUSHI_30 0x00000050
+    PUSHI_30 0xFFFFFFFF
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x0000000C
+    PUSHI_30 0x00000029
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000001
+    PUSHI_30 0x00000003
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000002
+    PUSHI_30 0x00000001
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x0000000F
+    PUSHI_30 0x00000018
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000004
+    PUSHI_30 0x00007FFF
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000005
+    PUSHI_30 0x00000000
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000006
+    PUSHI_30 0x00000000
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000007
+    PUSHI_30 0x00000000
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000003
+    PUSHI_30 0x00000000
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000010
+    STR "ＭＳ ゴシック"
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000011
+    PUSHI_30 0x00000018
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000012
+    PUSHI_30 0x00000000
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000013
+    PUSHI_30 0x00000002
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000014
+    PUSHI_30 0x000000D8
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000015
+    PUSHI_30 0x000001BA
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000019
+    PUSHI_30 0x00000001
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x0000001A
+    PUSHI_30 0x00000002
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x0000001B
+    PUSHI_30 0x00000000
+    SYS_F4
+    SEP_05
+    PUSHI_30 0x00000000
+    PUSHI_30 0x00000000
+    PUSHI_30 0x00000320
+    PUSHI_30 0x00000258
+    SYS_8C
+    SEP_05
+    PUSHI_30 0xFFFFFFFF
+    PUSHI_30 0x00000320
+    PUSHI_30 0x00000258
+    SYS_8D
+    SEP_05
+    PUSHI_30 0x00000002
+    PUSHI_30 0x00000320
+    PUSHI_30 0x00000258
+    SYS_8D
+    SEP_05
+    PUSHI_30 0x0000000E
+    PUSHI_30 0x00000320
+    PUSHI_30 0x00000258
+    SYS_8D
+    SEP_05
+    PUSHI_30 0x00000000
+    PUSHI_30 0x00000000
+    PUSHI_30 0x00000000
+    PUSHI_30 0x0000002E
+    PUSHI_30 0x00000007
+    SYS_8E
+    SEP_05
+    PUSHI_30 0x00000009
+    PUSHI_30 0x00000001
+    PUSHI_30 0x00000008
+    SYS_92
+    SEP_05
+    PUSHI_30 0x00000081
+    PUSHI_30 0x00000000
+    SYS_F2
+    SEP_05
+
+loc_000002B4:
+    STR "SYSFLAG.ISM"
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSH_VAR_23 0x80000000
+    SEP_05
+
+loc_000002CE:
+    STR "SYSLIB.ISM"
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSH_VAR_23 0x80000001
+    SEP_05
+
+loc_000002E7:
+    STR "SYSMENU.ISM"
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSH_VAR_23 0x80000002
+    SEP_05
+
+loc_00000301:
+    STR "SYSHIST.ISM"
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSH_VAR_23 0x80000003
+    SEP_05
+    PUSHI_30 0x00000037
+    PUSHI_30 0x00000001
+    PUSH_VAR_23 0x80000004
+    SEP_05
+    PUSH_VAR_23 0x80000005
+    PUSHI_30 0x00000000
+    NE
+    JZ loc_000003C7
+    SET_VAR_3A 0x80000000
+    PUSHI_30 0x00000002
+    PUSH_VAR_23 0x80000006
+    INVOKE
+    SEP_05
+    STR "Load "
+    PUSH_VAR_38 0x80000000
+    ADD
+    STR "Start."
+    ADD
+    OP_50
+    SEP_05
+    SET_VAR_3A 0x80000000
+
+loc_00000369:
+    STR "GAMEMAIN.ISM"
+    INVOKE
+    SEP_05
+    SET_VAR_3A 0x80000001
+    PUSHI_30 0x00000004
+    PUSH_VAR_23 0x80000006
+    INVOKE
+    SEP_05
+    PUSHI_30 0x00000001
+    PUSH_VAR_23 0x80000007
+    SEP_05
+    STRREF loc_00000369
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSH_VAR_38 0x80000001
+    PUSH_VAR_23 0x80000008
+    SEP_05
+    STRREF loc_00000369
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    PUSHI_30 0x00000000
+    PUSH_VAR_23 0x80000007
+    JMP_20 loc_000003D8
+
+loc_000003C7:
+    STR "Initial Start."
+    OP_50
+
+loc_000003D8:
+    SEP_05
+    PUSHI_30 0x00000020
+    PUSH_VAR_23 0x80000009
+    TEST_BIT0
+    NOT
+    JZ loc_000003FE
+    PUSHI_30 0x00000020
+    PUSHI_30 0x00000000
+    PUSH_VAR_23 0x80000004
+    JMP_20 loc_00000403
+
+loc_000003FE:
+    PUSHI_30 0x00000000
+
+loc_00000403:
+    SEP_05
+
+loc_00000404:
+    STR "TITLE.ISM"
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    SET_VAR_3A 0x00000000
+    PUSH_VAR_23 0x8000000A
+    INVOKE
+    SEP_05
+    STRREF loc_00000404
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    PUSH_VAR_38 0x00000000
+    PUSHI_30 0x00000001
+    EQ
+    JZ loc_0000047B
+    PUSHI_30 0x00000001
+    PUSH_VAR_23 0x80000007
+    SEP_05
+    STRREF loc_00000369
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSHI_30 0x00000000
+    PUSH_VAR_23 0x80000008
+    SEP_05
+    STRREF loc_00000369
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    PUSHI_30 0x00000000
+    PUSH_VAR_23 0x80000007
+    JMP_20 loc_000004B8
+
+loc_0000047B:
+    PUSH_VAR_38 0x00000000
+    PUSHI_30 0x00000002
+    EQ
+    JZ loc_000004B3
+
+loc_0000048B:
+    STR "OMAKE.ISM"
+    PUSHI_30 0x00000000
+    OP_2E
+    SEP_05
+    PUSH_VAR_23 0x8000000B
+    SEP_05
+    STRREF loc_0000048B
+    PUSHI_30 0x00000001
+    OP_2E
+    JMP_20 loc_000004B8
+
+loc_000004B3:
+    PUSHI_30 0x00000000
+
+loc_000004B8:
+    SEP_05
+    PUSH_VAR_38 0x00000000
+    PUSHI_30 0x00000000
+    NE
+    NOT
+    JZ loc_00000404
+    PUSHI_30 0x00000000
+    SEP_05
+    STRREF loc_00000301
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    STRREF loc_000002E7
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    STRREF loc_000002CE
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    STRREF loc_000002B4
+    PUSHI_30 0x00000001
+    OP_2E
+    SEP_05
+    PUSHI_30 0x00000000
+    RET
+    SEP_05
+
+loc_00000507:
+    PUSH_VAR_23 0x00000000
+    SEP_05
+    PUSHI_30 0x00000000
+    OP_2F
+    SEP_05
