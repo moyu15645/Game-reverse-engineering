@@ -1,0 +1,1790 @@
+{
+ "ops": {
+  "0": {
+   "opcode": 0,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_0"
+  },
+  "1": {
+   "opcode": 1,
+   "handler": 4592768,
+   "module": "GsxVm_SenProcs",
+   "arity": 6,
+   "mnemonic": "SEN_1"
+  },
+  "2": {
+   "opcode": 2,
+   "handler": 4593568,
+   "module": "GsxVm_SenProcs",
+   "arity": 7,
+   "mnemonic": "SEN_2"
+  },
+  "4": {
+   "opcode": 4,
+   "handler": 4556480,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_4"
+  },
+  "5": {
+   "opcode": 5,
+   "handler": 4556544,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_5"
+  },
+  "6": {
+   "opcode": 6,
+   "handler": 4557008,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_6"
+  },
+  "7": {
+   "opcode": 7,
+   "handler": 4557056,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_7"
+  },
+  "8": {
+   "opcode": 8,
+   "handler": 4591648,
+   "module": "GsxVm_SenProcs",
+   "arity": 11,
+   "mnemonic": "SEN_8"
+  },
+  "9": {
+   "opcode": 9,
+   "handler": 4599968,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_9"
+  },
+  "12": {
+   "opcode": 12,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_12"
+  },
+  "13": {
+   "opcode": 13,
+   "handler": 4557472,
+   "module": "GsxVm",
+   "arity": 4,
+   "mnemonic": "VM_13"
+  },
+  "14": {
+   "opcode": 14,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_14"
+  },
+  "15": {
+   "opcode": 15,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_15"
+  },
+  "16": {
+   "opcode": 16,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_16"
+  },
+  "17": {
+   "opcode": 17,
+   "handler": 4557632,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_17"
+  },
+  "18": {
+   "opcode": 18,
+   "handler": 4557488,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_18"
+  },
+  "19": {
+   "opcode": 19,
+   "handler": 4577440,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_19"
+  },
+  "20": {
+   "opcode": 20,
+   "handler": 4563664,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 7,
+   "mnemonic": "GRA_20"
+  },
+  "21": {
+   "opcode": 21,
+   "handler": 4582320,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 4,
+   "mnemonic": "GRA_21"
+  },
+  "22": {
+   "opcode": 22,
+   "handler": 4562992,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_22"
+  },
+  "23": {
+   "opcode": 23,
+   "handler": 4578928,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 7,
+   "mnemonic": "GRA_23"
+  },
+  "24": {
+   "opcode": 24,
+   "handler": 4602592,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_24"
+  },
+  "25": {
+   "opcode": 25,
+   "handler": 4571552,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 8,
+   "mnemonic": "GRA_25"
+  },
+  "26": {
+   "opcode": 26,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_26"
+  },
+  "27": {
+   "opcode": 27,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_27"
+  },
+  "28": {
+   "opcode": 28,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_28"
+  },
+  "29": {
+   "opcode": 29,
+   "handler": 4591152,
+   "module": "GsxVm_SaveProcs",
+   "arity": 1,
+   "mnemonic": "SAV_29"
+  },
+  "30": {
+   "opcode": 30,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_30"
+  },
+  "31": {
+   "opcode": 31,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_31"
+  },
+  "32": {
+   "opcode": 32,
+   "handler": 4601040,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_32"
+  },
+  "33": {
+   "opcode": 33,
+   "handler": 4601104,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 2,
+   "mnemonic": "SPC_33"
+  },
+  "34": {
+   "opcode": 34,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_34"
+  },
+  "35": {
+   "opcode": 35,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_35"
+  },
+  "36": {
+   "opcode": 36,
+   "handler": 4600016,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_36"
+  },
+  "37": {
+   "opcode": 37,
+   "handler": 4591520,
+   "module": "GsxVm_SaveProcs",
+   "arity": 1,
+   "mnemonic": "SAV_37"
+  },
+  "42": {
+   "opcode": 42,
+   "handler": 4579200,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 7,
+   "mnemonic": "GRA_42"
+  },
+  "43": {
+   "opcode": 43,
+   "handler": 4571968,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 8,
+   "mnemonic": "GRA_43"
+  },
+  "44": {
+   "opcode": 44,
+   "handler": 4570768,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_44"
+  },
+  "45": {
+   "opcode": 45,
+   "handler": 4562896,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_45"
+  },
+  "46": {
+   "opcode": 46,
+   "handler": 4562864,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_46"
+  },
+  "47": {
+   "opcode": 47,
+   "handler": 4568416,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 11,
+   "mnemonic": "GRA_47"
+  },
+  "48": {
+   "opcode": 48,
+   "handler": 4597232,
+   "module": "GsxVm_SoundProcs",
+   "arity": 3,
+   "mnemonic": "SND_48"
+  },
+  "49": {
+   "opcode": 49,
+   "handler": 4597616,
+   "module": "GsxVm_SoundProcs",
+   "arity": 0,
+   "mnemonic": "SND_49"
+  },
+  "50": {
+   "opcode": 50,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_50"
+  },
+  "51": {
+   "opcode": 51,
+   "handler": 4597552,
+   "module": "GsxVm_SoundProcs",
+   "arity": 1,
+   "mnemonic": "SND_51"
+  },
+  "52": {
+   "opcode": 52,
+   "handler": 4579616,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_52"
+  },
+  "53": {
+   "opcode": 53,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_53"
+  },
+  "54": {
+   "opcode": 54,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_54"
+  },
+  "55": {
+   "opcode": 55,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_55"
+  },
+  "56": {
+   "opcode": 56,
+   "handler": 4589456,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_56"
+  },
+  "57": {
+   "opcode": 57,
+   "handler": 4589744,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_57"
+  },
+  "58": {
+   "opcode": 58,
+   "handler": 4589792,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_58"
+  },
+  "61": {
+   "opcode": 61,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_61"
+  },
+  "62": {
+   "opcode": 62,
+   "handler": 4602128,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_62"
+  },
+  "63": {
+   "opcode": 63,
+   "handler": 4602448,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_63"
+  },
+  "64": {
+   "opcode": 64,
+   "handler": 4570496,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 4,
+   "mnemonic": "GRA_64"
+  },
+  "65": {
+   "opcode": 65,
+   "handler": 4564160,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_65"
+  },
+  "66": {
+   "opcode": 66,
+   "handler": 4564512,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_66"
+  },
+  "67": {
+   "opcode": 67,
+   "handler": 4564704,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_67"
+  },
+  "68": {
+   "opcode": 68,
+   "handler": 4599088,
+   "module": "GsxVm_SoundProcs",
+   "arity": 1,
+   "mnemonic": "SND_68"
+  },
+  "69": {
+   "opcode": 69,
+   "handler": 4599120,
+   "module": "GsxVm_SoundProcs",
+   "arity": 5,
+   "mnemonic": "SND_69"
+  },
+  "70": {
+   "opcode": 70,
+   "handler": 4597648,
+   "module": "GsxVm_SoundProcs",
+   "arity": 2,
+   "mnemonic": "SND_70"
+  },
+  "71": {
+   "opcode": 71,
+   "handler": 4597792,
+   "module": "GsxVm_SoundProcs",
+   "arity": 3,
+   "mnemonic": "SND_71"
+  },
+  "72": {
+   "opcode": 72,
+   "handler": 4597936,
+   "module": "GsxVm_SoundProcs",
+   "arity": 0,
+   "mnemonic": "SND_72"
+  },
+  "73": {
+   "opcode": 73,
+   "handler": 4598208,
+   "module": "GsxVm_SoundProcs",
+   "arity": 1,
+   "mnemonic": "SND_73"
+  },
+  "74": {
+   "opcode": 74,
+   "handler": 4563632,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_74"
+  },
+  "75": {
+   "opcode": 75,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_75"
+  },
+  "76": {
+   "opcode": 76,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_76"
+  },
+  "77": {
+   "opcode": 77,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_77"
+  },
+  "78": {
+   "opcode": 78,
+   "handler": 4578576,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 4,
+   "mnemonic": "GRA_78"
+  },
+  "79": {
+   "opcode": 79,
+   "handler": 4577408,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 8,
+   "mnemonic": "GRA_79"
+  },
+  "80": {
+   "opcode": 80,
+   "handler": 4563216,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_80"
+  },
+  "81": {
+   "opcode": 81,
+   "handler": 4579472,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 2,
+   "mnemonic": "GRA_81"
+  },
+  "82": {
+   "opcode": 82,
+   "handler": 4598416,
+   "module": "GsxVm_SoundProcs",
+   "arity": 4,
+   "mnemonic": "SND_82"
+  },
+  "83": {
+   "opcode": 83,
+   "handler": 4598656,
+   "module": "GsxVm_SoundProcs",
+   "arity": 2,
+   "mnemonic": "SND_83"
+  },
+  "84": {
+   "opcode": 84,
+   "handler": 4557664,
+   "module": "GsxVm",
+   "arity": 2,
+   "mnemonic": "VM_84"
+  },
+  "85": {
+   "opcode": 85,
+   "handler": 4580288,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 2,
+   "mnemonic": "GRA_85"
+  },
+  "86": {
+   "opcode": 86,
+   "handler": 4579904,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 2,
+   "mnemonic": "GRA_86"
+  },
+  "87": {
+   "opcode": 87,
+   "handler": 4581136,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 2,
+   "mnemonic": "GRA_87"
+  },
+  "88": {
+   "opcode": 88,
+   "handler": 4581296,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_88"
+  },
+  "89": {
+   "opcode": 89,
+   "handler": 4581536,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_89"
+  },
+  "90": {
+   "opcode": 90,
+   "handler": 4581648,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_90"
+  },
+  "91": {
+   "opcode": 91,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_91"
+  },
+  "92": {
+   "opcode": 92,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_92"
+  },
+  "93": {
+   "opcode": 93,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_93"
+  },
+  "94": {
+   "opcode": 94,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_94"
+  },
+  "95": {
+   "opcode": 95,
+   "handler": 4558192,
+   "module": "GsxVm",
+   "arity": 3,
+   "mnemonic": "VM_95"
+  },
+  "96": {
+   "opcode": 96,
+   "handler": 4598816,
+   "module": "GsxVm_SoundProcs",
+   "arity": 1,
+   "mnemonic": "SND_96"
+  },
+  "97": {
+   "opcode": 97,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_97"
+  },
+  "98": {
+   "opcode": 98,
+   "handler": 4598976,
+   "module": "GsxVm_SoundProcs",
+   "arity": 1,
+   "mnemonic": "SND_98"
+  },
+  "99": {
+   "opcode": 99,
+   "handler": 4598976,
+   "module": "GsxVm_SoundProcs",
+   "arity": 0,
+   "mnemonic": "SND_99"
+  },
+  "100": {
+   "opcode": 100,
+   "handler": 4582032,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_100"
+  },
+  "101": {
+   "opcode": 101,
+   "handler": 4562928,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_101"
+  },
+  "102": {
+   "opcode": 102,
+   "handler": 4562960,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_102"
+  },
+  "103": {
+   "opcode": 103,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_103"
+  },
+  "104": {
+   "opcode": 104,
+   "handler": 4602560,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_104"
+  },
+  "105": {
+   "opcode": 105,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_105"
+  },
+  "109": {
+   "opcode": 109,
+   "handler": 4558560,
+   "module": "GsxVm",
+   "arity": 7,
+   "mnemonic": "VM_109"
+  },
+  "110": {
+   "opcode": 110,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_110"
+  },
+  "113": {
+   "opcode": 113,
+   "handler": 4558576,
+   "module": "GsxVm",
+   "arity": 3,
+   "mnemonic": "VM_113"
+  },
+  "114": {
+   "opcode": 114,
+   "handler": 4589312,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_114"
+  },
+  "118": {
+   "opcode": 118,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_118"
+  },
+  "119": {
+   "opcode": 119,
+   "handler": 4582320,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 4,
+   "mnemonic": "GRA_119"
+  },
+  "120": {
+   "opcode": 120,
+   "handler": 4558592,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_120"
+  },
+  "121": {
+   "opcode": 121,
+   "handler": 4558976,
+   "module": "GsxVm",
+   "arity": 2,
+   "mnemonic": "VM_121"
+  },
+  "122": {
+   "opcode": 122,
+   "handler": 4594368,
+   "module": "GsxVm_SenProcs",
+   "arity": 12,
+   "mnemonic": "SEN_122"
+  },
+  "123": {
+   "opcode": 123,
+   "handler": 4595504,
+   "module": "GsxVm_SenProcs",
+   "arity": 3,
+   "mnemonic": "SEN_123"
+  },
+  "125": {
+   "opcode": 125,
+   "handler": 4591360,
+   "module": "GsxVm_SaveProcs",
+   "arity": 1,
+   "mnemonic": "SAV_125"
+  },
+  "126": {
+   "opcode": 126,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_126"
+  },
+  "128": {
+   "opcode": 128,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_128"
+  },
+  "129": {
+   "opcode": 129,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_129"
+  },
+  "130": {
+   "opcode": 130,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_130"
+  },
+  "131": {
+   "opcode": 131,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_131"
+  },
+  "132": {
+   "opcode": 132,
+   "handler": 4564768,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_132"
+  },
+  "133": {
+   "opcode": 133,
+   "handler": 4564992,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 7,
+   "mnemonic": "GRA_133"
+  },
+  "134": {
+   "opcode": 134,
+   "handler": 4565264,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 7,
+   "mnemonic": "GRA_134"
+  },
+  "135": {
+   "opcode": 135,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_135"
+  },
+  "136": {
+   "opcode": 136,
+   "handler": 4587008,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 10,
+   "mnemonic": "GRA_136"
+  },
+  "137": {
+   "opcode": 137,
+   "handler": 4587712,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_137"
+  },
+  "138": {
+   "opcode": 138,
+   "handler": 4588048,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_138"
+  },
+  "139": {
+   "opcode": 139,
+   "handler": 4591296,
+   "module": "GsxVm_SaveProcs",
+   "arity": 0,
+   "mnemonic": "SAV_139"
+  },
+  "140": {
+   "opcode": 140,
+   "handler": 4590608,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_140"
+  },
+  "141": {
+   "opcode": 141,
+   "handler": 4590688,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_141"
+  },
+  "142": {
+   "opcode": 142,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_142"
+  },
+  "143": {
+   "opcode": 143,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_143"
+  },
+  "144": {
+   "opcode": 144,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_144"
+  },
+  "145": {
+   "opcode": 145,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_145"
+  },
+  "146": {
+   "opcode": 146,
+   "handler": 4579696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_146"
+  },
+  "147": {
+   "opcode": 147,
+   "handler": 4578864,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_147"
+  },
+  "148": {
+   "opcode": 148,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_148"
+  },
+  "149": {
+   "opcode": 149,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_149"
+  },
+  "150": {
+   "opcode": 150,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_150"
+  },
+  "151": {
+   "opcode": 151,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_151"
+  },
+  "152": {
+   "opcode": 152,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_152"
+  },
+  "153": {
+   "opcode": 153,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_153"
+  },
+  "154": {
+   "opcode": 154,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_154"
+  },
+  "155": {
+   "opcode": 155,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_155"
+  },
+  "156": {
+   "opcode": 156,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_156"
+  },
+  "157": {
+   "opcode": 157,
+   "handler": 4559952,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_157"
+  },
+  "158": {
+   "opcode": 158,
+   "handler": 4599568,
+   "module": "GsxVm_SoundProcs",
+   "arity": 0,
+   "mnemonic": "SND_158"
+  },
+  "159": {
+   "opcode": 159,
+   "handler": 4598320,
+   "module": "GsxVm_SoundProcs",
+   "arity": 1,
+   "mnemonic": "SND_159"
+  },
+  "160": {
+   "opcode": 160,
+   "handler": 4583040,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_160"
+  },
+  "161": {
+   "opcode": 161,
+   "handler": 4600432,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_161"
+  },
+  "162": {
+   "opcode": 162,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_162"
+  },
+  "163": {
+   "opcode": 163,
+   "handler": 4600736,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_163"
+  },
+  "164": {
+   "opcode": 164,
+   "handler": 4590432,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_164"
+  },
+  "165": {
+   "opcode": 165,
+   "handler": 4590352,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_165"
+  },
+  "166": {
+   "opcode": 166,
+   "handler": 4590512,
+   "module": "GsxVm_MsgProcs",
+   "arity": 3,
+   "mnemonic": "MSG_166"
+  },
+  "167": {
+   "opcode": 167,
+   "handler": 4591328,
+   "module": "GsxVm_SaveProcs",
+   "arity": 0,
+   "mnemonic": "SAV_167"
+  },
+  "168": {
+   "opcode": 168,
+   "handler": 4562816,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_168"
+  },
+  "169": {
+   "opcode": 169,
+   "handler": 4582928,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_169"
+  },
+  "170": {
+   "opcode": 170,
+   "handler": 4559776,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_170"
+  },
+  "171": {
+   "opcode": 171,
+   "handler": 4590288,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_171"
+  },
+  "172": {
+   "opcode": 172,
+   "handler": 4559840,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_172"
+  },
+  "173": {
+   "opcode": 173,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_173"
+  },
+  "174": {
+   "opcode": 174,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_174"
+  },
+  "175": {
+   "opcode": 175,
+   "handler": 4559904,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_175"
+  },
+  "176": {
+   "opcode": 176,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_176"
+  },
+  "177": {
+   "opcode": 177,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_177"
+  },
+  "178": {
+   "opcode": 178,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_178"
+  },
+  "179": {
+   "opcode": 179,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_179"
+  },
+  "180": {
+   "opcode": 180,
+   "handler": 4559520,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_180"
+  },
+  "181": {
+   "opcode": 181,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_181"
+  },
+  "182": {
+   "opcode": 182,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_182"
+  },
+  "183": {
+   "opcode": 183,
+   "handler": 4582448,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_183"
+  },
+  "184": {
+   "opcode": 184,
+   "handler": 4582544,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 9,
+   "mnemonic": "GRA_184"
+  },
+  "185": {
+   "opcode": 185,
+   "handler": 4582896,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_185"
+  },
+  "186": {
+   "opcode": 186,
+   "handler": 4565680,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_186"
+  },
+  "187": {
+   "opcode": 187,
+   "handler": 4570528,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_187"
+  },
+  "188": {
+   "opcode": 188,
+   "handler": 4565536,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_188"
+  },
+  "190": {
+   "opcode": 190,
+   "handler": 4590720,
+   "module": "GsxVm_MsgProcs",
+   "arity": 2,
+   "mnemonic": "MSG_190"
+  },
+  "191": {
+   "opcode": 191,
+   "handler": 4590928,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_191"
+  },
+  "192": {
+   "opcode": 192,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_192"
+  },
+  "193": {
+   "opcode": 193,
+   "handler": 4601200,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 2,
+   "mnemonic": "SPC_193"
+  },
+  "194": {
+   "opcode": 194,
+   "handler": 4601552,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 3,
+   "mnemonic": "SPC_194"
+  },
+  "195": {
+   "opcode": 195,
+   "handler": 4589344,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_195"
+  },
+  "196": {
+   "opcode": 196,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_196"
+  },
+  "197": {
+   "opcode": 197,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_197"
+  },
+  "198": {
+   "opcode": 198,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_198"
+  },
+  "199": {
+   "opcode": 199,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_199"
+  },
+  "203": {
+   "opcode": 203,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_203"
+  },
+  "204": {
+   "opcode": 204,
+   "handler": 4601968,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_204"
+  },
+  "205": {
+   "opcode": 205,
+   "handler": 4601936,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_205"
+  },
+  "206": {
+   "opcode": 206,
+   "handler": 4600080,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_206"
+  },
+  "207": {
+   "opcode": 207,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_207"
+  },
+  "208": {
+   "opcode": 208,
+   "handler": 4559136,
+   "module": "GsxVm",
+   "arity": 2,
+   "mnemonic": "VM_208"
+  },
+  "209": {
+   "opcode": 209,
+   "handler": 4559344,
+   "module": "GsxVm",
+   "arity": 2,
+   "mnemonic": "VM_209"
+  },
+  "210": {
+   "opcode": 210,
+   "handler": 4579744,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_210"
+  },
+  "211": {
+   "opcode": 211,
+   "handler": 4581920,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_211"
+  },
+  "212": {
+   "opcode": 212,
+   "handler": 4581840,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_212"
+  },
+  "213": {
+   "opcode": 213,
+   "handler": 4582000,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_213"
+  },
+  "214": {
+   "opcode": 214,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_214"
+  },
+  "215": {
+   "opcode": 215,
+   "handler": 4589840,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_215"
+  },
+  "216": {
+   "opcode": 216,
+   "handler": 4589872,
+   "module": "GsxVm_MsgProcs",
+   "arity": 0,
+   "mnemonic": "MSG_216"
+  },
+  "217": {
+   "opcode": 217,
+   "handler": 4557808,
+   "module": "GsxVm",
+   "arity": 3,
+   "mnemonic": "VM_217"
+  },
+  "218": {
+   "opcode": 218,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_218"
+  },
+  "219": {
+   "opcode": 219,
+   "handler": 4559120,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_219"
+  },
+  "220": {
+   "opcode": 220,
+   "handler": 4573696,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 4,
+   "mnemonic": "GRA_220"
+  },
+  "221": {
+   "opcode": 221,
+   "handler": 4571520,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_221"
+  },
+  "222": {
+   "opcode": 222,
+   "handler": 4599920,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 0,
+   "mnemonic": "SPC_222"
+  },
+  "223": {
+   "opcode": 223,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_223"
+  },
+  "224": {
+   "opcode": 224,
+   "handler": 4584672,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_224"
+  },
+  "225": {
+   "opcode": 225,
+   "handler": 4584832,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_225"
+  },
+  "226": {
+   "opcode": 226,
+   "handler": 4583392,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 8,
+   "mnemonic": "GRA_226"
+  },
+  "227": {
+   "opcode": 227,
+   "handler": 4584048,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_227"
+  },
+  "228": {
+   "opcode": 228,
+   "handler": 4584480,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_228"
+  },
+  "229": {
+   "opcode": 229,
+   "handler": 4599664,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 2,
+   "mnemonic": "SPC_229"
+  },
+  "230": {
+   "opcode": 230,
+   "handler": 4599792,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 2,
+   "mnemonic": "SPC_230"
+  },
+  "231": {
+   "opcode": 231,
+   "handler": 4559552,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_231"
+  },
+  "232": {
+   "opcode": 232,
+   "handler": 4559584,
+   "module": "GsxVm",
+   "arity": 0,
+   "mnemonic": "VM_232"
+  },
+  "236": {
+   "opcode": 236,
+   "handler": 4584880,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 10,
+   "mnemonic": "GRA_236"
+  },
+  "238": {
+   "opcode": 238,
+   "handler": 4588240,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_238"
+  },
+  "239": {
+   "opcode": 239,
+   "handler": 4588352,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_239"
+  },
+  "240": {
+   "opcode": 240,
+   "handler": 4588400,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_240"
+  },
+  "241": {
+   "opcode": 241,
+   "handler": 4588624,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 3,
+   "mnemonic": "GRA_241"
+  },
+  "242": {
+   "opcode": 242,
+   "handler": 4602672,
+   "module": "GsxVm_SpecialProcs",
+   "arity": 1,
+   "mnemonic": "SPC_242"
+  },
+  "243": {
+   "opcode": 243,
+   "handler": 4563872,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_243"
+  },
+  "244": {
+   "opcode": 244,
+   "handler": 4572880,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_244"
+  },
+  "245": {
+   "opcode": 245,
+   "handler": 4578608,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_245"
+  },
+  "246": {
+   "opcode": 246,
+   "handler": 4578832,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_246"
+  },
+  "247": {
+   "opcode": 247,
+   "handler": 4571216,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 8,
+   "mnemonic": "GRA_247"
+  },
+  "248": {
+   "opcode": 248,
+   "handler": 4583152,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 2,
+   "mnemonic": "GRA_248"
+  },
+  "249": {
+   "opcode": 249,
+   "handler": 4588848,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 0,
+   "mnemonic": "GRA_249"
+  },
+  "250": {
+   "opcode": 250,
+   "handler": 4590960,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_250"
+  },
+  "251": {
+   "opcode": 251,
+   "handler": 4564672,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_251"
+  },
+  "252": {
+   "opcode": 252,
+   "handler": 4573472,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_252"
+  },
+  "253": {
+   "opcode": 253,
+   "handler": 4572672,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_253"
+  },
+  "254": {
+   "opcode": 254,
+   "handler": 4560112,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_254"
+  },
+  "255": {
+   "opcode": 255,
+   "handler": 4560112,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_255"
+  },
+  "256": {
+   "opcode": 256,
+   "handler": 4580000,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_256"
+  },
+  "257": {
+   "opcode": 257,
+   "handler": 4580384,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_257"
+  },
+  "258": {
+   "opcode": 258,
+   "handler": 4580960,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_258"
+  },
+  "259": {
+   "opcode": 259,
+   "handler": 4580448,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 5,
+   "mnemonic": "GRA_259"
+  },
+  "260": {
+   "opcode": 260,
+   "handler": 4580624,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 6,
+   "mnemonic": "GRA_260"
+  },
+  "261": {
+   "opcode": 261,
+   "handler": 4560112,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_261"
+  },
+  "262": {
+   "opcode": 262,
+   "handler": 4560112,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_262"
+  },
+  "263": {
+   "opcode": 263,
+   "handler": 4560112,
+   "module": "GsxVm",
+   "arity": 1,
+   "mnemonic": "VM_263"
+  },
+  "290": {
+   "opcode": 290,
+   "handler": 4588928,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_290"
+  },
+  "291": {
+   "opcode": 291,
+   "handler": 4588864,
+   "module": "GsxVm_GraphicsProcs",
+   "arity": 1,
+   "mnemonic": "GRA_291"
+  },
+  "292": {
+   "opcode": 292,
+   "handler": 4599056,
+   "module": "GsxVm_SoundProcs",
+   "arity": 0,
+   "mnemonic": "SND_292"
+  },
+  "293": {
+   "opcode": 293,
+   "handler": 4597968,
+   "module": "GsxVm_SoundProcs",
+   "arity": 3,
+   "mnemonic": "SND_293"
+  },
+  "294": {
+   "opcode": 294,
+   "handler": 4598144,
+   "module": "GsxVm_SoundProcs",
+   "arity": 0,
+   "mnemonic": "SND_294"
+  },
+  "295": {
+   "opcode": 295,
+   "handler": 4589904,
+   "module": "GsxVm_MsgProcs",
+   "arity": 3,
+   "mnemonic": "MSG_295"
+  },
+  "296": {
+   "opcode": 296,
+   "handler": 4589552,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_296"
+  },
+  "297": {
+   "opcode": 297,
+   "handler": 4589648,
+   "module": "GsxVm_MsgProcs",
+   "arity": 1,
+   "mnemonic": "MSG_297"
+  },
+  "298": {
+   "opcode": 298,
+   "handler": 4558000,
+   "module": "GsxVm",
+   "arity": 3,
+   "mnemonic": "VM_298"
+  },
+  "300": {
+   "opcode": 300,
+   "handler": 4596144,
+   "module": "GsxVm_SenProcs",
+   "arity": 4,
+   "mnemonic": "SEN_300"
+  },
+  "301": {
+   "opcode": 301,
+   "handler": 4596304,
+   "module": "GsxVm_SenProcs",
+   "arity": 3,
+   "mnemonic": "SEN_301"
+  },
+  "302": {
+   "opcode": 302,
+   "handler": 4596528,
+   "module": "GsxVm_SenProcs",
+   "arity": 2,
+   "mnemonic": "SEN_302"
+  },
+  "303": {
+   "opcode": 303,
+   "handler": 4596640,
+   "module": "GsxVm_SenProcs",
+   "arity": 3,
+   "mnemonic": "SEN_303"
+  },
+  "304": {
+   "opcode": 304,
+   "handler": 4596768,
+   "module": "GsxVm_SenProcs",
+   "arity": 2,
+   "mnemonic": "SEN_304"
+  },
+  "305": {
+   "opcode": 305,
+   "handler": 4596880,
+   "module": "GsxVm_SenProcs",
+   "arity": 2,
+   "mnemonic": "SEN_305"
+  },
+  "306": {
+   "opcode": 306,
+   "handler": 4596976,
+   "module": "GsxVm_SenProcs",
+   "arity": 2,
+   "mnemonic": "SEN_306"
+  },
+  "307": {
+   "opcode": 307,
+   "handler": 4597072,
+   "module": "GsxVm_SenProcs",
+   "arity": 0,
+   "mnemonic": "SEN_307"
+  },
+  "308": {
+   "opcode": 308,
+   "handler": 4597168,
+   "module": "GsxVm_SenProcs",
+   "arity": 1,
+   "mnemonic": "SEN_308"
+  }
+ },
+ "imgbase": 4194304
+}
